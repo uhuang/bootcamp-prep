@@ -37,7 +37,7 @@ function drNo() {
 
 
 function jaws(agent) {
-  let agent = bond;
+  agent = bond;
   bond = 'Body Double';
 
   let AgentinScope = (agent === '007');
