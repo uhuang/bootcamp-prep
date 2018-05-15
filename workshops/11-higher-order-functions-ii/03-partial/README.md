@@ -12,6 +12,6 @@ function summer (a, b) {
   return a + b
 };
 
-let sumFive = partial(sum, 5);
+let sumFive = partial(summer, 5);
 sumFive(10) // => 15;
 ```
