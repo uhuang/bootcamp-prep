@@ -7,6 +7,7 @@ function testOne() {
 
 
 // Test Two Restrictions: Do not change any code in the body of testTwo
+// (you can edit helperFunc though)
 let testTwoMessage = 'test failing';
 
 function testTwo() {
