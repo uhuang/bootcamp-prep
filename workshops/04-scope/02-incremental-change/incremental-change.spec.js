@@ -16,10 +16,10 @@ describe('incrementalChange', () => {
 
   it('returns the current value of the counter', () => {
     let returnedValue1 = incrementalChange(10);
-    let returnedValue2 = incrementalChange(20);
+    expect(returnedValue1).toEqual(counter);
 
-    expect(returnedValue1).toEqual(10);
-    expect(returnedValue2).toEqual(30);
+    let returnedValue2 = incrementalChange(20);
+    expect(returnedValue2).toEqual(counter);
   });
 
   it('updates the global counter variable', () => {
