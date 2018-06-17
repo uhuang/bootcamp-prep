@@ -5,8 +5,6 @@ each element from the array into the callback. If the callback returns true,
 return the index of the current element. If the callback never returns true,
 return -1;
 
-'veryOddMutant' should return a count of the number of even numbers it replaced.
-
 ```javascript
 let numbers = [1, 3, 5, 64, 7, 12];
 let odds = [9, 13, 15, 17];
