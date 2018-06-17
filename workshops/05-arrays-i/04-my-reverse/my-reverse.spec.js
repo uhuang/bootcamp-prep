@@ -5,7 +5,7 @@ describe('myReverse', () => {
   });
 
   it('returns an array', () => {
-    let returnedValue = myReverse(1, 1);
+    let returnedValue = myReverse([1, 1]);
     expect(Array.isArray(returnedValue)).toEqual(true);
   });
 
