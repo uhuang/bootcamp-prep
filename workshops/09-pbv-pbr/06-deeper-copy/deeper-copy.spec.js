@@ -17,5 +17,12 @@ describe('deeperCopy', () => {
 
     expect(fruits).toEqual(['apples', ['bananas', 'citrus']]);
   });
+  
+  it('copies nested objects completely', () => {
+    let fruits = ['apples', ['bananas', 'citrus']]
+    let returnedValue = deeperCopy(['apples', ['bananas', 'citrus']]);
+    
+    expect(fruits[1] === returnedValue[1]).toEqual(false);
+  });
 
 });
